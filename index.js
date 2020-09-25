@@ -20,7 +20,7 @@ bot.on("ready", async () => {
     let now = date.format(new Date(), 'YYYY/MM/DD HH:mm:ss');
     console.log(`[${now}] ${bot.user.username} is online`)
     bot.user.setActivity("TeamToast", {type: "WATCHING"});
-})
+});
 
 bot.commands = new Discord.Collection(); // Collection for all commands
 bot.aliases = new Discord.Collection(); // Collection for all aliases of every command

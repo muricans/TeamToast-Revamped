@@ -16,8 +16,6 @@ module.exports.run = async (bot, message, args) => {
 
     const time = 60 * 1000;
 
-    if (!message.member.roles.cache.find(r => r.id === permRoles.moderator)) return
-
     let title = args.join(" ");
 
     message.channel.send(`The title has been set to \`${title}\`, please give a announcement description.`)
