@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
 
     const embed = new Discord.MessageEmbed()
     .setTitle(`The rules`)
-    .setDescription(`these rules are only here to act as guidelines, proper thinking and behaviour should always be applied when posting a message or talking in a voice channel.
+    .setDescription(`These rules are only here to act as guidelines, proper thinking and behaviour should always be applied when posting a message or talking in a voice channel.
     
     Here are the general rules:
     1. Do not judge or insult someone
