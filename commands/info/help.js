@@ -18,7 +18,7 @@ module.exports.run = async (bot, message, args) => {
         **${prefix}help [command]** *Get more detailed information about a command*
         **${prefix}info** *Get some general information about me*
         **${prefix}role <role name>** *Get a role for a specific game*`)
-        .setFooter(`Please not that <> has to be filled in, and [] can be included as a optional argument.`)
+        .setFooter(`Please note that <> has to be filled in, and [] can be included as a optional argument.`)
 
         message.channel.send(embed);
     }
