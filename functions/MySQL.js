@@ -7,7 +7,9 @@ module.exports = {
             host: "localhost",
             user: "root",
             password: "",
-            database: "teamToast"
+            database: "teamToast",
+            supportBigNumbers: true,
+            bigNumberStrings: true
         });
 
         connection.connect(function (err) {
